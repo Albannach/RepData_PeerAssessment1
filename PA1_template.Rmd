@@ -12,7 +12,7 @@ day, and 61 days (October 2012 - November 2012) in the provided dataset i.e. a
 total of 17,568 observations.  
 
 
-### Loading and preprocessing the data  <!-- 1.1, 1.2 -->
+### Loading and preprocessing the data
 
 
 The data is read directly from the provided .zip file which contains a 
