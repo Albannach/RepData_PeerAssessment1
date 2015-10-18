@@ -66,7 +66,7 @@ img {
 
 <p>The data considered in this paper comprises of a set of readings of the number of steps a single individual took over a two month period, each reading corresponding to a five minute time period. There are 288 readings per day, and 61 days (October 2012 - November 2012) in the provided dataset i.e. a total of 17,568 observations.</p>
 <div id="loading-and-preprocessing-the-data" class="section level3">
-<h3>Loading and preprocessing the data <!-- 1.1, 1.2 --></h3>
+<h3>Loading and preprocessing the data</h3>
 <p>The data is read directly from the provided .zip file which contains a single .csv file with column names in the first row, creating the <em><strong>rawdata</strong></em> dataframe. A summary of this raw dataframe is shown below.</p>
 <pre class="r"><code>rawData = read.csv(unz(&quot;activity.zip&quot;,&quot;activity.csv&quot;), stringsAsFactors=FALSE)
 summary(rawData)</code></pre>
